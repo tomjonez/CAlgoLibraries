@@ -1,7 +1,7 @@
 ﻿using cAlgo.API;
 using cAlgo.API.Indicators;
 
-namespace StochasticLibrary
+namespace Indicators.Stochastic
 {
     public class Stochastic
     {
