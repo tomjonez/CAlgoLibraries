@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add reference to cTrader API DLL -->
+    <Reference Include="cAlgo.API">
+      <HintPath>C:\Users\Tom_J\Documents\cAlgo\API\cAlgo.API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

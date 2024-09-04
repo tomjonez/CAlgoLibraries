@@ -1,0 +1,111 @@
+# Ignore build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]est[Rr]esult*/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore NuGet dependency cache
+.nuget/
+packages/
+# Uncomment if you have resharper installed
+# _ReSharper*/
+# *.[Rr]e[Ss]harper*/
+# Ignore Rider project files
+.idea/
+# Ignore Rider dot cover coverage results
+*.dotCover
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pidb
+*.log
+*.svclog
+*.sdf
+
+# Auto-generated files
+*.generated.cs
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Visual Studio Code specific files
+.vscode/
+
+# Rider specific files
+.idea/
+
+# Ignore JetBrains Rider files
+.idea/
+
+# Ignore Visual Studio 2019/2022 solution-specific files
+*.sln.ide
+
+# Ignore coverage and debug files
+*.coverage
+*.coveragexml
+*.log
+*.log2
+
+# Ignore temporary files
+*.tmp
+*.vspscc
+*.vssscc
+*.orig
+*.bak
+*.swp
+*.swo
+*~
+
+# Ignore symbol files
+*.pdb
+*.mdb
+
+# Ignore compiled files
+*.dll
+*.exe
+*.out
+*.app
+*.log
+
+# Ignore lock files and dependency caches
+project.lock.json
+project.fragment.lock.json
+project.json.lock
+# Uncomment if you want to track only certain types of lock files
+# !*.lock.json
+
+# Ignore Rider specific dotCover coverage results
+*.dotCover
+
+# Ignore byproducts of unit tests and coverage tools
+TestResults/
+coverage/
+
+# Ignore Visual Studio directory
+.vscode/
+.vs/
+.vscode/*
+
+# Rider specific files
+.idea
+
+# Temporary files for development process
+*.temp
+*.tmp
+*.swp
+*.swo
