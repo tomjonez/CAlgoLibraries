@@ -82,6 +82,9 @@ $RECYCLE.BIN/
 *.app
 *.log
 
+# Exclude the local build artifacts but include the `cAlgo.API.dll` manually managed in the libs folder
+!libs/cAlgo.API.dll
+
 # Ignore lock files and dependency caches
 project.lock.json
 project.fragment.lock.json
