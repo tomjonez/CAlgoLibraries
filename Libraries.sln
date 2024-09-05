@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{EA794458-B12E-4E39-ADC0-4A1C50416C2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time", "Utils\Time\Time.csproj", "{FB0CF53C-2BE7-40C2-96DC-82ACC9079DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Indicators", "Indicators", "{11CF968A-84A3-4543-AACC-5A0EA196EC28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stochastic", "Indicators\Stochastic\Stochastic.csproj", "{369CD534-7A0B-4D68-B7E1-CBE2D6D0AEA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB0CF53C-2BE7-40C2-96DC-82ACC9079DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0CF53C-2BE7-40C2-96DC-82ACC9079DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0CF53C-2BE7-40C2-96DC-82ACC9079DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0CF53C-2BE7-40C2-96DC-82ACC9079DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369CD534-7A0B-4D68-B7E1-CBE2D6D0AEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369CD534-7A0B-4D68-B7E1-CBE2D6D0AEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369CD534-7A0B-4D68-B7E1-CBE2D6D0AEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369CD534-7A0B-4D68-B7E1-CBE2D6D0AEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB0CF53C-2BE7-40C2-96DC-82ACC9079DDD} = {EA794458-B12E-4E39-ADC0-4A1C50416C2A}
+		{369CD534-7A0B-4D68-B7E1-CBE2D6D0AEA9} = {11CF968A-84A3-4543-AACC-5A0EA196EC28}
+	EndGlobalSection
+EndGlobal
